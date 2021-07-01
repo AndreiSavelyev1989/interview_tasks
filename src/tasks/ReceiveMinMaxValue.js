@@ -15,9 +15,9 @@ export const ReceiveMinMaxValue = () => {
     return (
         <div>
             <b>Receive min and max value from array:</b>
-            <div><span>Array: </span>[{numbers.map(num => <span>{`${num}, `}</span>)}]</div>
-            <div><span>Min value</span>{minValue}</div>
-            <div><span>Max value</span>{maxValue}</div>
+            <div><span>Array: </span>[{numbers.map(num => <span key={num}>{`${num}, `}</span>)}]</div>
+            <div><span>Min value: </span>{minValue}</div>
+            <div><span>Max value: </span>{maxValue}</div>
         </div>
     )
 }
