@@ -3,6 +3,7 @@ import {ReceiveMinMaxValue} from "./tasks/ReceiveMinMaxValue";
 import {Factorial} from "./tasks/Factorial";
 import {Fibonacci} from "./tasks/Fibonacci";
 import {SumAllNumbers} from "./tasks/SumAllNumbers";
+import {BrickWall} from "./tasks/BrickWall";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Factorial factorialNumber={5}/>
       <Fibonacci fibonacciNumber={10}/>
       <SumAllNumbers number={12}/>
+      <BrickWall/>
     </div>
   );
 }
