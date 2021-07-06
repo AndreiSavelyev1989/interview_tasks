@@ -5,7 +5,6 @@ export const BrickWall = () => {
         let map = {}
         let max = 0
         wall.forEach(row => {
-            debugger
             let sum = 0
             for (let n = 0; n < row.length - 1; n++) {
                 sum += row[n]
