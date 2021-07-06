@@ -5,6 +5,7 @@ import {Fibonacci} from "./tasks/Fibonacci";
 import {SumAllNumbers} from "./tasks/SumAllNumbers";
 import {BrickWall} from "./tasks/BrickWall";
 import {PromiseExampleTasks} from "./tasks/PromiseExampleTasks";
+import {FindPrimeNumber} from "./tasks/FindPrimeNumber";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             {/*<SumAllNumbers number={12}/>*/}
             {/*<BrickWall/>*/}
             {/*<PromiseExampleTasks/>*/}
+            <FindPrimeNumber primeNumber={111} diapasonPrimeNumbers={120}/>
         </div>
     );
 }
