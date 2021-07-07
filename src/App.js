@@ -6,6 +6,7 @@ import {SumAllNumbers} from "./tasks/SumAllNumbers";
 import {BrickWall} from "./tasks/BrickWall";
 import {PromiseExampleTasks} from "./tasks/PromiseExampleTasks";
 import {FindPrimeNumber} from "./tasks/FindPrimeNumber";
+import {IntersectionOfArrays} from "./tasks/IntersectionOfArrays";
 
 function App() {
     return (
@@ -16,7 +17,8 @@ function App() {
             {/*<SumAllNumbers number={12}/>*/}
             {/*<BrickWall/>*/}
             {/*<PromiseExampleTasks/>*/}
-            <FindPrimeNumber primeNumber={111} diapasonPrimeNumbers={120}/>
+            {/*<FindPrimeNumber primeNumber={111} diapasonPrimeNumbers={120}/>*/}
+            <IntersectionOfArrays/>
         </div>
     );
 }
